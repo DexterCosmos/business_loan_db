@@ -5,6 +5,7 @@
 
 ---
 # // Summary //
+---
 
 This project revolves around analyzing the **business_loan_db**, a comprehensive dataset consisting of `400,000` entries. The database captures data on loans availed by prominent businesses to finance their operations and growth. The dataset includes notable companies such as **Zomato**, **Bharti Airtel**, **Infosys**, and **Kotak Mahindra Bank**, among others. 
 
@@ -35,6 +36,7 @@ This analysis aims to provide actionable insights for:
 ---
 
 # // Workflow //
+---
 
 Python to clean and preprocess data, ensuring it was ready for analysis. SQL was then employed to address business requirements and resolve complex data-related challenges. Finally, Power BI was used to visualize key insights, enabling data-driven decision-making effectively
 
@@ -211,7 +213,8 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 ---
 
 # // Tools Utilized //
-
+---
+   
 - Excel
 
 - Python
