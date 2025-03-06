@@ -37,7 +37,7 @@ This analysis aims to provide actionable insights for:
 
 ## Python
 
-- **Importing Required Libraries**
+### **Importing Required Libraries**
 
     ```python
     import pandas as pd 
@@ -48,7 +48,7 @@ This analysis aims to provide actionable insights for:
 
     df = pd.read_csv('business_loan_data.csv')
     ```
-- **Analysis of the Business Loan Dataset**
+### **Analysis of the Business Loan Dataset**
 
     ```python
     df.columns
@@ -64,7 +64,7 @@ This analysis aims to provide actionable insights for:
     df.info()
     ```
 
-- **Data Cleaning and Standardization**
+### **Data Cleaning and Standardization**
 
  - Fixing alingment of data to left
 
@@ -137,7 +137,7 @@ This analysis aims to provide actionable insights for:
     df.info()
     df.head()
     ```
-- **Exporting the cleaned data to a CSV file**
+### **Exporting the cleaned data to a CSV file**
 
     ```python
     df.to_csv('business_loan_cleaned.csv', index=False)
@@ -145,7 +145,7 @@ This analysis aims to provide actionable insights for:
     print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
 
-- **Connecting to the MySQL database**
+### **Connecting to the MySQL database**
     
     ```python
     ```
