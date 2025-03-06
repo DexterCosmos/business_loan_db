@@ -154,8 +154,6 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 
      print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
-
-### **SQL database**
     
  - Connecting to the MySQL database
 
