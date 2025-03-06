@@ -171,7 +171,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
    ```
 ## SQL
 
- - Business Loan Database
+ - Business Loan Database (business_loan_db)
 
    More queries please refer to the document titled `Business Requirement.md` for detailed business requirements. For the proposed solutions, kindly consult the `business_loan_db.sql` file.
 
