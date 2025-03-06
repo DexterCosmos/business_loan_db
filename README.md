@@ -158,3 +158,25 @@ This analysis aims to provide actionable insights for:
 
     ```python
     ```
+
+
+
+## // Tools Utilized //
+
+- Excel
+
+- Python
+
+- libraries: (pandas, numpy, pymysql, sqlalchemy)
+
+- Jupyter Notebook
+
+- SQL
+
+- Power BI
+
+
+
+<p align="center">
+  <i>This project was solely exicuted by // Nomaan Ansari //</i>
+</p>
