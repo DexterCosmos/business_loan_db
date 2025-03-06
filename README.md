@@ -147,7 +147,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 
 ### **Exporting the Dataset**
 
- - Exporting the cleaned dataset to a CSV file
+ - Exporting the cleaned dataset as a (CSV) file
 
     ```python
      df.to_csv('business_loan_cleaned.csv', index=False)
