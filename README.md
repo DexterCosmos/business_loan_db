@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/banner.png" alt="Business Loan Image">
+<img src="images/banner.png" alt="Business Loan">
 <h1> Business Loan DB </h1>
 </div>
 
