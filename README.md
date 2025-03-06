@@ -38,6 +38,9 @@ This analysis aims to provide actionable insights for:
 ## Python
 
 ### **Importing Required Libraries**
+
+ - Importing the necessary libraries for data analysis and database connection.
+
     ```python
         import pandas as pd 
         import numpy as np
@@ -49,6 +52,9 @@ This analysis aims to provide actionable insights for:
     ```
     
 ### **Analysis of the Business Loan Dataset**
+
+ - Checking the shape, columns, and data types of the dataset
+
     ```python
         df.columns
 
