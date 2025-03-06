@@ -5,32 +5,32 @@ This license governs the use of data and project materials provided by [business
 
 1. Definitions
 
-    1.1. "Data" refers to all datasets, processed information, or derivatives as part of this project.
+ 1.1. "Data" refers to all datasets, processed information, or derivatives as part of this project.
 
-    1.2. "Project" refers to [business_loan_db], including its source code, documentation, and any associated materials.
+ 1.2. "Project" refers to [business_loan_db], including its source code, documentation, and any associated materials.
 
-    1.3. "Licensee" refers to the entity or individual granted rights under this license.
+ 1.3. "Licensee" refers to the entity or individual granted rights under this license.
 
-    1.4. "Licensor" refers to the project owner or entity providing this license.
-
-
- 2. Ownership
-
-    2.1. All rights, title, and interest in the Data and Project are retained by the Licensor.
-
-    2.2. This license does not transfer any intellectual property rights except as explicitly stated.
+ 1.4. "Licensor" refers to the project owner or entity providing this license.
 
 
- 3. Permitted Use
+2. Ownership
 
-    3.1. The Licensee is granted a non-exclusive, non-transferable right to [list authorized activities, e.g., access, analyze, distribute under specific conditions].
+2.1. All rights, title, and interest in the Data and Project are retained by the Licensor.
+
+2.2. This license does not transfer any intellectual property rights except as explicitly stated.
+
+
+3. Permitted Use
+
+3.1. The Licensee is granted a non-exclusive, non-transferable right to [list authorized activities, e.g., access, analyze, distribute under specific conditions].
     
-    3.2. The Licensee must ensure the Data and Project are used in a manner compliant with all applicable privacy, intellectual property, and data protection laws.
+3.2. The Licensee must ensure the Data and Project are used in a manner compliant with all applicable privacy, intellectual property, and data protection laws.
 
 
- 4. Restrictions
+4. Restrictions
  
-    4.1. The Licensee may not sublicense, transfer, or distribute the Data or Project to unauthorized third parties.
+4.1. The Licensee may not sublicense, transfer, or distribute the Data or Project to unauthorized third parties.
     
     4.2. Unauthorized modification, reverse engineering, or decompilation of the Data or Project is strictly prohibited.
 
