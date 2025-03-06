@@ -175,7 +175,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 
  - Queries
 
-   More queries please refer to the document titled `Business Requirement.md` for detailed business requirements. For the proposed solutions, kindly consult the `business_loan_db.sql` file.
+   More queries please refer to the document titled `business_requirement.md` for detailed business requirements. For the proposed solutions, kindly consult the `business_loan_db.sql` file.
 
  - Example
 
