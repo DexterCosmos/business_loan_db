@@ -4,12 +4,12 @@
 
 <h1 align="center"> Business Loan Database Analysis </h1> 
 
-# // Summary //
+## // Summary //
 
 This project revolves around analyzing the **business_loan_db**, a comprehensive dataset consisting of `400,000` entries. The database captures data on loans availed by prominent businesses to finance their operations and growth. The dataset includes notable companies such as **Zomato**, **Bharti Airtel**, **Infosys**, and **Kotak Mahindra Bank**, among others. 
 
 
-## Key Objectives
+### Key Objectives
 
 1. **Loan Utilization Analysis**: Assess how companies allocate loan amounts across different operational and growth activities.
 
@@ -22,7 +22,7 @@ This project revolves around analyzing the **business_loan_db**, a comprehensive
 5. **Risk Assessment**: Understand risk levels based on company size, sector, and loan amount.
 
 
-## Purpose
+### Purpose
 
 This analysis aims to provide actionable insights for:
 
@@ -34,13 +34,13 @@ This analysis aims to provide actionable insights for:
 
 ---
 
-# // Workflow //
+## // Workflow //
 
 Python to clean and preprocess data, ensuring it was ready for analysis. SQL was then employed to address business requirements and resolve complex data-related challenges. Finally, Power BI was used to visualize key insights, enabling data-driven decision-making effectively
 
-## Python
+### Python
 
-### **Importing Required Libraries**
+#### **Importing Required Libraries**
 
  - Importing the necessary libraries for data analysis and database connection.
 
@@ -53,7 +53,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df = pd.read_csv('business_loan_data.csv')
    ```
     
-### **Analysis of Dataset**
+#### **Analysis of Dataset**
 
  - Checking the shape, columns, and data types of the dataset
 
@@ -71,7 +71,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df.info()
    ```
 
-### **Data Cleaning and Standardization**
+#### **Data Cleaning and Standardization**
 
  - Fixing alingment of data
 
@@ -145,7 +145,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df.head()
    ```
 
-### **Exporting the Dataset**
+#### **Exporting the Dataset**
 
  - Exporting the cleaned dataset as a .CSV file
 
@@ -169,9 +169,9 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
    ```python
      df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
    ```
-## SQL
+### SQL
 
- ### Business Loan Database
+ #### Business Loan Database
 
  - Queries
 
@@ -205,12 +205,12 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
     ORDER BY loan_status DESC, emp_title DESC
     LIMIT 100000;
    ```
-## Power BI
+### Power BI
 
 
 ---
 
-# // Tools Utilized //
+## // Tools Utilized //
 
 - Excel
 
