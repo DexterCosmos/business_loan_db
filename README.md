@@ -169,6 +169,42 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
    ```python
      df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
    ```
+## SQL
+
+ - Business Loan Database
+
+   Please refer to the document titled `Business Requirement.md` for detailed business requirements. For the proposed solutions, kindly consult the `business_loan_db.sql` file.
+
+   ---- Example
+
+   ```sql
+    1. -- Understand how companies use their loans across activities.
+
+    SELECT purpose, AVG(loan_amount) AS avg_loan_amount, SUM(loan_amount) AS total_loan_amount
+    FROM business_loan
+    GROUP BY purpose
+    ORDER BY total_loan_amount DESC;
+
+
+    2. -- Identify patterns in loan repayments and influencing factors.
+
+    -- Loan status and payment patterns
+
+    SELECT loan_status, ROUND(AVG(total_payment)) AS avg_payment, COUNT(*) AS loan_count
+    FROM business_loan
+    WHERE loan_status IN ('Current', 'Fully Paid', 'Late', 'Charged Off')
+    GROUP BY loan_status;
+
+    -- Delinquencies and late payments
+
+    SELECT loan_status, member_id, loan_amount, last_payment_date, emp_title
+    FROM business_loan
+    WHERE loan_status = 'Late' OR loan_status = 'Charged Off'
+    ORDER BY loan_status DESC, emp_title DESC
+    LIMIT 100000;
+   ```
+## Power BI
+
 
 ---
 
