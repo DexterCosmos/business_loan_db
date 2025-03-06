@@ -51,7 +51,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      from sqlalchemy import create_engine
 
      df = pd.read_csv('business_loan_data.csv')
-    ```
+   ```
     
 ### **Analysis of Dataset**
 
@@ -69,7 +69,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df.duplicated().sum()
 
      df.info()
-    ```
+   ```
 
 ### **Data Cleaning and Standardization**
 
@@ -79,7 +79,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      pd.options.display.colheader_justify = 'left'
 
      df.head()
-    ```
+   ```
 
  - Cleaning the special characters from columns and changing the data type
 
@@ -109,7 +109,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df.head()
 
      df.info()
-    ```
+   ```
 
  - Triming the rows and columns of the dataframe
 
@@ -117,7 +117,7 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
      df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 
      print(df)
-    ```
+   ```
 
  - Fixing the date format from string to date
 
@@ -143,17 +143,17 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 
      df.info()
      df.head()
-    ```
+   ```
 
 ### **Exporting the Dataset**
 
- - Exporting the cleaned dataset as a (CSV) file
+ - Exporting the cleaned dataset as a .CSV file
 
     ```python
      df.to_csv('business_loan_cleaned.csv', index=False)
 
      print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
-    ```
+   ```
     
  - Connecting to the MySQL database
 
@@ -164,11 +164,11 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
         print ('connected')
      except:
         print ('not connected')
-    ```
+   ```
 
-    ```python
+   ```python
      df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
-    ```
+   ```
 
 ---
 
