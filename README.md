@@ -1,7 +1,7 @@
 
-<img src="images/banner.png" alt="Business Loan">
+<img align="center" src="images/banner.png" alt="Business Loan">
 
-<h1 align="center" > Business Loan Database Analysis </h1> 
+<h1 align="center"> Business Loan Database Analysis </h1> 
 
 ---
 # // Summary //
