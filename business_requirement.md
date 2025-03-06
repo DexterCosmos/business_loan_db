@@ -1,38 +1,41 @@
-**Business Requirement list for the project**
 
-1. - Understand how companies use their loans across activities.
+Business Requirement list for the project
 
-2. - Identify patterns in loan repayments and influencing factors.
 
-3. - Derive sector-specific financial insights.
+1. Understand how companies use their loans across activities.
 
-4. - Analyze how loans contribute to business growth.
+2. Identify patterns in loan repayments and influencing factors.
 
-5. - Evaluate risk levels based on size, sector, and loan amount.
+3. Derive sector-specific financial insights.
 
-A. - Risk by Loan Amount
-B. - Risk by Sector
+4. Analyze how loans contribute to business growth.
 
-6. - Identify the most common loan purposes.
+5. Evaluate risk levels based on size, sector, and loan amount.
 
-7. - Find Members with More Than 10 Total Accounts
+    A - Risk by Loan Amount9
 
-8. - Retrieve Borrowers with Sub-Grade 'A1'
+    B - Risk by Sector
 
-9. - Total Loans and Average Income by Application Type
+6. Identify the most common loan purposes.
 
-10. - Minimum and Maximum Installment Amount
+7. Find Members with More Than 10 Total Accounts
 
-11. - All Homeowners with Loans Above $40,000
+8. Retrieve Borrowers with Sub-Grade 'A1'
 
-12. - Total Payments for Each Loan Purpose
+9. Total Loans and Average Income by Application Type
 
-13. - Total Loans by Loan Status
+10. Minimum and Maximum Installment Amount
 
-14. - Borrowers Not Verified for Employment
+11. All Homeowners with Loans Above $40,000
 
-15. - Average Interest Rate by Grade
+12. Total Payments for Each Loan Purpose
 
-16. - Loans with Late Status
+13. Total Loans by Loan Status
 
-17. - Members with Loan Applications Exceeding $45,000
+14. Borrowers Not Verified for Employment
+
+15. Average Interest Rate by Grade
+
+16. Loans with Late Status
+
+17. Members with Loan Applications Exceeding $45,000
