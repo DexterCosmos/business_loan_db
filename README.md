@@ -66,7 +66,7 @@ This analysis aims to provide actionable insights for:
 
 - **Data Cleaning and Standardization**
 
-    - Fixing alingment of data to left
+ - Fixing alingment of data to left
 
     ```python
     pd.options.display.colheader_justify = 'left'
@@ -74,7 +74,7 @@ This analysis aims to provide actionable insights for:
     df.head()
     ```
 
-    - Cleaning the special characters from columns and changing the data type of the column
+ - Cleaning the special characters from columns and changing the data type of the column
 
     ```python
     df['emp_length_year'] = (
@@ -92,7 +92,7 @@ This analysis aims to provide actionable insights for:
     df.head()
     ```
 
-    - change the term to int64 and removing the 'months' string
+ - change the term to int64 and removing the 'months' string
 
     ```python
     df['term'] = df['term'].str.replace('months', '', regex=False).str.strip()
@@ -104,7 +104,7 @@ This analysis aims to provide actionable insights for:
     df.info()
     ```
 
-    - Trim the rows and columns of the dataframe
+ - Trim the rows and columns of the dataframe
 
     ```python
     df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
@@ -112,7 +112,7 @@ This analysis aims to provide actionable insights for:
     print(df)
     ```
 
-    - Fixing the date format from string to date
+ - Fixing the date format from string to date
 
     ```python
     date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
