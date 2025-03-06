@@ -143,7 +143,9 @@ This analysis aims to provide actionable insights for:
         df.head()
     ```
 
-### **Exporting the cleaned data to a CSV file**
+### **Exporting the Dataset**
+
+ - Exporting the cleaned dataset to a CSV file
 
     ```python
         df.to_csv('business_loan_cleaned.csv', index=False)
@@ -151,7 +153,9 @@ This analysis aims to provide actionable insights for:
         print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
 
-### **Connecting to the MySQL database**
+### **MySQL database**
     
+ - Creating a connection to the MySQL database
+
     ```python
     ```
