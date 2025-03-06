@@ -152,7 +152,7 @@ This analysis aims to provide actionable insights for:
      print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
 
-### **MySQL **
+### **MySQL**
     
  - Connecting to the MySQL database
 
