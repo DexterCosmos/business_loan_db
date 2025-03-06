@@ -2,10 +2,9 @@
 <img src="images/banner.png" alt="Business Loan">
 <h1> Business Loan Database Analysis </h1> 
 </div>
+---
 
----
 # // Summary //
----
 
 This project revolves around analyzing the **business_loan_db**, a comprehensive dataset consisting of `400,000` entries. The database captures data on loans availed by prominent businesses to finance their operations and growth. The dataset includes notable companies such as **Zomato**, **Bharti Airtel**, **Infosys**, and **Kotak Mahindra Bank**, among others. 
 
