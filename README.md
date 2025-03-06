@@ -120,27 +120,27 @@ This analysis aims to provide actionable insights for:
  - Fixing the date format from string to date
 
     ```python
-        date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
+     date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
 
-        for column in date_columns:
-        invalid_dates = df[df[column].isna()]
-        print(f"Invalid or NaT values in {column}:\n", invalid_dates)
-
-
-        print(df[date_columns].head())
-        df[column].fillna('0001-01-01', inplace=True)
+     for column in date_columns:
+     invalid_dates = df[df[column].isna()]
+     print(f"Invalid or NaT values in {column}:\n", invalid_dates)
 
 
-        date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
-
-        for column in date_columns:
-
-        df[column] = pd.to_datetime(df[column], errors='coerce')
-        df[column] = df[column].dt.strftime('%Y-%m-%d')
+     print(df[date_columns].head())
+     df[column].fillna('0001-01-01', inplace=True)
 
 
-        df.info()
-        df.head()
+     date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
+
+     for column in date_columns:
+
+     df[column] = pd.to_datetime(df[column], errors='coerce')
+     df[column] = df[column].dt.strftime('%Y-%m-%d')
+
+
+     df.info()
+     df.head()
     ```
 
 ### **Exporting the Dataset**
