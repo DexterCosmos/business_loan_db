@@ -38,30 +38,29 @@ This analysis aims to provide actionable insights for:
 ## Python
 
 ### **Importing Required Libraries**
-
     ```python
-    import pandas as pd 
-    import numpy as np
-    import pymysql
-    from sqlalchemy import create_engine
+        import pandas as pd 
+        import numpy as np
+        import pymysql
+        from sqlalchemy import create_engine
 
 
-    df = pd.read_csv('business_loan_data.csv')
+        df = pd.read_csv('business_loan_data.csv')
     ```
+    
 ### **Analysis of the Business Loan Dataset**
-
     ```python
-    df.columns
+        df.columns
 
-    df.shape
+        df.shape
 
-    df.head()
+        df.head()
 
-    df.isnull().sum()
+        df.isnull().sum()
 
-    df.duplicated().sum()
+        df.duplicated().sum()
 
-    df.info()
+        df.info()
     ```
 
 ### **Data Cleaning and Standardization**
@@ -69,80 +68,81 @@ This analysis aims to provide actionable insights for:
  - Fixing alingment of data to left
 
     ```python
-    pd.options.display.colheader_justify = 'left'
+        pd.options.display.colheader_justify = 'left'
 
-    df.head()
+        df.head()
     ```
 
  - Cleaning the special characters from columns and changing the data type of the column
 
     ```python
-    df['emp_length_year'] = (
-    df['emp_length']
-    .str.replace('<', '', regex=False)
-    .str.replace('years', '', regex=False)
-    .str.replace('year', '', regex=False)
-    .str.strip()
-    )
+        df['emp_length_year'] = (
+        df['emp_length']
+        .str.replace('<', '', regex=False)
+        .str.replace('years', '', regex=False)
+        .str.replace('year', '', regex=False)
+        .str.strip()
+        )
 
-    df['emp_length_year'] = df['emp_length_year'].astype('int64')
+        df['emp_length_year'] = df['emp_length_year'].astype('int64')
 
-    df.drop(columns=['emp_length'], inplace=True)
+        df.drop(columns=['emp_length'], inplace=True)
 
-    df.head()
+        df.head()
     ```
 
  - change the term to int64 and removing the 'months' string
 
     ```python
-    df['term'] = df['term'].str.replace('months', '', regex=False).str.strip()
+        df['term'] = df['term'].str.replace('months', '', regex=False).str.strip()
 
-    df['term'] = df['term'].astype('int64')
+        df['term'] = df['term'].astype('int64')
 
-    df.head()
+        df.head()
 
-    df.info()
+        df.info()
     ```
 
  - Trim the rows and columns of the dataframe
 
     ```python
-    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 
-    print(df)
+        print(df)
     ```
 
  - Fixing the date format from string to date
 
     ```python
-    date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
+        date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
 
-    for column in date_columns:
-    invalid_dates = df[df[column].isna()]
-    print(f"Invalid or NaT values in {column}:\n", invalid_dates)
-
-
-    print(df[date_columns].head())
-    df[column].fillna('0001-01-01', inplace=True)
+        for column in date_columns:
+        invalid_dates = df[df[column].isna()]
+        print(f"Invalid or NaT values in {column}:\n", invalid_dates)
 
 
-    date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
-
-    for column in date_columns:
-
-    df[column] = pd.to_datetime(df[column], errors='coerce')
-    df[column] = df[column].dt.strftime('%Y-%m-%d')
+        print(df[date_columns].head())
+        df[column].fillna('0001-01-01', inplace=True)
 
 
-    df.info()
-    df.head()
+        date_columns = ['issue_date', 'last_credit_pull_date', 'last_payment_date', 'next_payment_date']
+
+        for column in date_columns:
+
+        df[column] = pd.to_datetime(df[column], errors='coerce')
+        df[column] = df[column].dt.strftime('%Y-%m-%d')
+
+
+        df.info()
+        df.head()
     ```
+
 ### **Exporting the cleaned data to a CSV file**
 
     ```python
-    df.to_csv('business_loan_cleaned.csv', index=False)
+        df.to_csv('business_loan_cleaned.csv', index=False)
 
-    print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
+        print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
 
 ### **Connecting to the MySQL database**
