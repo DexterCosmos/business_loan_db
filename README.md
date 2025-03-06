@@ -8,7 +8,7 @@
 This project revolves around analyzing the **business_loan_db**, a comprehensive dataset consisting of `400,000` entries. The database captures data on loans availed by prominent businesses to finance their operations and growth. The dataset includes notable companies such as **Zomato**, **Bharti Airtel**, **Infosys**, and **Kotak Mahindra Bank**, among others. 
 
 
-## Key Objectives
+### Key Objectives
 
 1. **Loan Utilization Analysis**: Assess how companies allocate loan amounts across different operational and growth activities.
 
@@ -21,7 +21,7 @@ This project revolves around analyzing the **business_loan_db**, a comprehensive
 5. **Risk Assessment**: Understand risk levels based on company size, sector, and loan amount.
 
 
-## Purpose
+### Purpose
 
 This analysis aims to provide actionable insights for:
 
@@ -152,7 +152,7 @@ This analysis aims to provide actionable insights for:
      print("DataFrame successfully exported to 'business_loan_cleaned.csv'")
     ```
 
-### **MySQL database**
+### **MySQL **
     
  - Connecting to the MySQL database
 
