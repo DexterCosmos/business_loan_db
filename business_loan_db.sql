@@ -1,5 +1,3 @@
-SELECT * FROM business_loan
-
 
 1. -- Understand how companies use their loans across activities.
 
@@ -9,7 +7,7 @@ GROUP BY purpose
 ORDER BY total_loan_amount DESC;
 
 
- 2. -- Identify patterns in loan repayments and influencing factors.
+2. -- Identify patterns in loan repayments and influencing factors.
 
 -- Loan status and payment patterns
 
@@ -91,13 +89,13 @@ FROM business_loan
 GROUP BY application_type;
 
 
-10. -- Maximum Installment Amount
+10. -- Minimum and Maximum Installment Amount
 
-SELECT MAX(installment) AS max_installment
+SELECT MIN(installment) AS min_installment, MAX(installment) AS max_installment
 FROM business_loan;
 
 
-11. -- All Homeowners with Loans Above ₹50,00,000
+11. -- All Homeowners with Loans Above ₹40,000
 
 SELECT id, member_id, home_ownership, loan_amount
 FROM business_loan
@@ -132,6 +130,7 @@ FROM business_loan
 GROUP BY grade
 ORDER BY grade ASC;
 
+
 16. -- Loans with Late Status
 
 SELECT id, emp_title, member_id, loan_status
@@ -141,9 +140,8 @@ GROUP BY id, emp_title, member_id, loan_status
 ORDER BY emp_title ASC;
 
 
-17. -- Members with Loan Applications Exceeding ₹10,00,000
+17. -- Members with Loan Applications Exceeding ₹45,000
 
 SELECT member_id, loan_amount
 FROM business_loan
-WHERE loan_amount > 1000000;
-
+WHERE loan_amount > 45000;
