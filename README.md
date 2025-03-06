@@ -83,10 +83,10 @@ This analysis aims to provide actionable insights for:
     ```python
      df['emp_length_year'] = (
      df['emp_length']
-     .str.replace('<', '', regex=False)
-     .str.replace('years', '', regex=False)
-     .str.replace('year', '', regex=False)
-     .str.strip()
+        .str.replace('<', '', regex=False)
+        .str.replace('years', '', regex=False)
+        .str.replace('year', '', regex=False)
+        .str.strip()
      )
 
      df['emp_length_year'] = df['emp_length_year'].astype('int64')
@@ -154,14 +154,23 @@ This analysis aims to provide actionable insights for:
 
 ### **MySQL database**
     
- - Creating a connection to the MySQL database
+ - Connecting to the MySQL database
 
     ```python
+     engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/business_loan_db')
+
+     try:engine_sql
+        print ('connected')
+     except:
+        print ('not connected')
+    ```
+
+    ```python
+     df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
     ```
 
 
-
-## // Tools Utilized //
+# // Tools Utilized //
 
 - Excel
 
