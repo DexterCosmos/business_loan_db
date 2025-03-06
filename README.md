@@ -1,7 +1,8 @@
 <div align="center">
 <img src="images/banner.png" alt="Business Loan">
-<h1> Business Loan Database Analysis </h1> 
 </div>
+
+<h1 align="center"> Business Loan Database Analysis </h1> 
 
 # // Summary //
 
