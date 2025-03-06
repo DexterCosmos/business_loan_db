@@ -2,7 +2,9 @@
 <img src="images/banner.png" alt="Business Loan">
 </div>
 
-<h1 align="center"> Business Loan Database Analysis </h1> 
+<h1 align="center"> Business Loan Analysis </h1> 
+
+---
 
 ## // Summary //
 
@@ -11,15 +13,15 @@ This project revolves around analyzing the **business_loan_db**, a comprehensive
 
 ### Key Objectives
 
-1. **Loan Utilization Analysis**: Assess how companies allocate loan amounts across different operational and growth activities.
+- **Loan Utilization Analysis**: Assess how companies allocate loan amounts across different operational and growth activities.
 
-2. **Repayment Trends**: Identify patterns in loan repayments and highlight factors influencing timely repayments or defaults.
+- **Repayment Trends**: Identify patterns in loan repayments and highlight factors influencing timely repayments or defaults.
 
-3. **Industry Insights**: Derive sector-specific insights into loan dependency and financial strategies.
+- **Industry Insights**: Derive sector-specific insights into loan dependency and financial strategies.
 
-4. **Growth Correlation**: Examine how loans impact business growth and revenue generation.
+- **Growth Correlation**: Examine how loans impact business growth and revenue generation.
 
-5. **Risk Assessment**: Understand risk levels based on company size, sector, and loan amount.
+- **Risk Assessment**: Understand risk levels based on company size, sector, and loan amount.
 
 
 ### Purpose
