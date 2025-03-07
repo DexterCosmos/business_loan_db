@@ -1,5 +1,5 @@
 
-Business Requirement list for the project
+Business Requirement list for the project:
 
 
 1. Understand how companies use their loans across activities.
