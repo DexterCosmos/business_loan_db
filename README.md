@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/Business_loan_DB.png" alt="Business Loan" width="650">
+<img src="images/Business_loan_DB.png" alt="Business Loan" width="600">
 </div>
 
 <h1 align="center"> Business Loan Analysis </h1> 
