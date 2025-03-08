@@ -217,52 +217,52 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
 1. Gauge Charts
 
- - Purpose: Visualize key metrics like Total Payments, Annual Income, Interest Rate, and Debt-to-Income Ratio  (DTI).
+   - Purpose: Visualize key metrics like Total Payments, Annual Income, Interest Rate, and Debt-to-Income Ratio  (DTI).
 
- - Details: Configured gauges to reflect performance against targets. Each gauge provides a clear indication of how well the measures are performing.
+   - Details: Configured gauges to reflect performance against targets. Each gauge provides a clear indication of how well the measures are performing.
 
 
 2. Area Charts:
 
- - Trends in Total Payments Made over time.
+   - Trends in Total Payments Made over time.
  
- - Segmentation by Loan Status and additional filters for granular analysis.
+   - Segmentation by Loan Status and additional filters for granular analysis.
 
 
 3. Ribbon Charts:
 
- - Rank changes over time based on Total Payments Made.
+   - Rank changes over time based on Total Payments Made.
  
- - Comparative analysis and trend identification.
+   - Comparative analysis and trend identification.
 
 
 4. Tree Maps:
 
- - Hierarchical visualization of Loan Status by Total Payment.
+   - Hierarchical visualization of Loan Status by Total Payment.
 
- - Visualization of Purpose by Loan Amount with added customizations for enhanced analysis.
+   - Visualization of Purpose by Loan Amount with added customizations for enhanced analysis.
 
 ###### Key Insights
 
- - **Loan Distribution by State:** Visualize the distribution of loans across different states.
+   - **Loan Distribution by State:** Visualize the distribution of loans across different states.
 
- - **Loan Status Analysis:** Breakdown of loans by status (e.g., fully paid, charged off).
+   - **Loan Status Analysis:** Breakdown of loans by status (e.g., fully paid, charged off).
 
- - **Employment Length Impact:** Relationship between employment length and loan default rates.
+   - **Employment Length Impact:** Relationship between employment length and loan default rates.
 
- - **Home Ownership vs. Loan Amount:** Comparison of loan amounts based on home ownership status.
+   - **Home Ownership vs. Loan Amount:** Comparison of loan amounts based on home ownership status.
 
- - **Interest Rate by Grade:** Display of average interest rates for each loan grade.
+   - **Interest Rate by Grade:** Display of average interest rates for each loan grade.
 
- - **Annual Income Distribution:** Distribution of annual incomes of borrowers.
+   - **Annual Income Distribution:** Distribution of annual incomes of borrowers.
 
- - **Debt-to-Income Ratio (DTI) Analysis:** Average DTI ratio for different loan statuses.
+   - **Debt-to-Income Ratio (DTI) Analysis:** Average DTI ratio for different loan statuses.
 
- - **Purpose of Loans:** Visualization of loans based on their purpose.
+    - **Purpose of Loans:** Visualization of loans based on their purpose.
 
- - **Installment Trends:** Trends in loan installments over time.
+   - **Installment Trends:** Trends in loan installments over time.
 
- - **Total Payments Made:** Total payments made by borrowers, segmented by loan grade.
+   - **Total Payments Made:** Total payments made by borrowers, segmented by loan grade.
 
 This project provides a robust set of visualizations that offer valuable insights into the dataset. It demonstrates the power of Power BI in transforming raw data into meaningful and actionable information.
 
