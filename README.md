@@ -211,8 +211,6 @@ Python to clean and preprocess data, ensuring it was ready for analysis. SQL was
 
 ### Power BI
 
-#### Summary
-
 This Power BI project focuses on visualizing key insights from a dataset with columns such as loan_status, total_payment, emp_length, home_ownership, purpose, and more. The project includes a variety of advanced visualizations that provide a comprehensive understanding of the data and help in making data-driven decisions.
 
 1. Gauge Charts
@@ -242,7 +240,7 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
    - Visualization of Purpose by Loan Amount with added customizations for enhanced analysis.
 
-###### Key Insights
+#### Key Insights
 
    - **Loan Distribution by State:** Visualize the distribution of loans across different states.
 
@@ -266,15 +264,15 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
 This project provides a robust set of visualizations that offer valuable insights into the dataset. It demonstrates the power of Power BI in transforming raw data into meaningful and actionable information.
 
-##### Dashborad 1
+#### Dashborad 1
 
 <img src="images/Dashboard (1).png" alt="Dashboard" align="center">
     
-##### Dashborad 2
+#### Dashborad 2
 
 <img src="images/Dashboard (2).png" alt="Dashboard" align="center">
 
-##### Dashborad 3 
+#### Dashborad 3 
 
 <img src="images/Dashboard (3).png" alt="Dashboard" align="center">
 
