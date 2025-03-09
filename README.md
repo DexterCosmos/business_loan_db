@@ -256,7 +256,7 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
    - **Debt-to-Income Ratio (DTI) Analysis:** Average DTI ratio for different loan statuses.
 
-    - **Purpose of Loans:** Visualization of loans based on their purpose.
+   - **Purpose of Loans:** Visualization of loans based on their purpose.
 
    - **Installment Trends:** Trends in loan installments over time.
 
