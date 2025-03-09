@@ -275,6 +275,7 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
 <img src="images/Dashboard (3).png" alt="Dashboard" align="center">
 
+
 This project provides a robust set of visualizations that offer valuable insights into the dataset. It demonstrates the power of Power BI in transforming raw data into meaningful and actionable information.
 
 ---
