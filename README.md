@@ -248,7 +248,7 @@ This Power BI project focuses on visualizing key insights from a dataset with co
 
    - **Employment Length Impact:** Relationship between employment length and loan default rates.
 
-   - **Home Ownership vs. Loan Amount:** Comparison of loan amounts based on home ownership status.
+   - **Home Ownership vs Loan Amount:** Comparison of loan amounts based on home ownership status.
 
    - **Interest Rate by Grade:** Display of average interest rates for each loan grade.
 
